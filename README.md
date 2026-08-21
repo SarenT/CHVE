@@ -215,6 +215,34 @@ Disagreements belong in pull request dnot pop psychologyiscussions, not in CHVE 
 
 ---
 
+## To-do
+
+Open quality goals for existing and future CHVE entries:
+
+- Prefer **primary literature** (empirical studies, original experiments, peer-reviewed reviews) over popular summaries alone
+- **Back claims in the CHVE text** with those references—not only a References list at the end
+- Strengthen secondary or illustrative citations (e.g. practitioner books, incident reports) by pairing them with primary sources where claims are factual or causal
+
+### Citation formatting
+
+Use **author–year in the body** and a **References list at the bottom** (not numbered `[1]`, `[2]` citations):
+
+- In text: `(Author, Year)` or `Author (Year)`; multiple sources as `(Author, Year; Author, Year)`
+- References section: full citations, preferably alphabetical; include DOI or URL when available
+- Prefer stable author–year keys over renumberable indexes (cleaner diffs, easier inserts)
+
+Example:
+
+```markdown
+Under time pressure, deliberation decreases (Kahneman, 2011).
+
+## References
+
+* Kahneman, D. (2011). *Thinking, Fast and Slow*.
+```
+
+---
+
 ## License and intent
 
 CHVE is intended for:
