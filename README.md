@@ -30,7 +30,7 @@ CHVE exists to document these *common, exploitable human failure modes*, using a
 * A **reference catalog**, not a diagnostic or assessment tool
 * A catalog of **repeatedly observable vulnerabilities**, independent of whether they are discussed at an individual or population level
 * A **threat-modeling abstraction** focused on exploitability rather than explanation or attribution
-* A **shared vocabulary** for discussing manipulation, scams, persuasion, logical fallacies, and other exploitable failure modes
+* A **shared vocabulary** for discussing manipulation, scams, persuasion, logical fallacies, stage magic/mentalism, and other exploitable failure modes
 
 Each CHVE entry describes:
 
@@ -136,6 +136,8 @@ Not all fields are mandatory, but clarity and neutrality are required.
 
 Where possible, each CHVE should include at least one **citable real-world exploitation**—for example a well-documented incident, official crime or fraud statistics, or a public enforcement action—so readers can connect the abstract vulnerability to observable practice. Prefer primary or official sources; keep language neutral and defensive in intent.
 
+**Magic and mentalism are accepted.** Stage magic, mentalism, and similar performance tricks are in-scope as *demonstration exploits*: they are typically low-harm and consensual, but they reliably illustrate the same cognitive, attentional, and social failure modes that scams and social engineering abuse. When used in a CHVE, describe the *principle* (what the audience is led to assume or miss), not a how-to for deception. Cite a documented effect, performer literature, or experimental work on misdirection where possible. Do not treat entertainment examples as a substitute for documented harmful exploitation when the latter exists.
+
 ---
 
 ## Individual vulnerabilities and population convergence
@@ -213,6 +215,8 @@ Please read `CONTRIBUTING.md` before submitting a CHVE. In short:
 
 - Cite sources where possible
 
+- Magic, mentalism, and other demonstration exploits are welcome when they illustrate the vulnerability
+
 - Avoid ideology, politics, or personal attacks
 
 Disagreements belong in pull request dnot pop psychologyiscussions, not in CHVE documents.
@@ -227,6 +231,7 @@ Open quality goals for existing and future CHVE entries:
 - **Back claims in the CHVE text** with those references—not only a References list at the end
 - Strengthen secondary or illustrative citations (e.g. practitioner books, incident reports) by pairing them with primary sources where claims are factual or causal
 - Include **Documented Real-World Exploitation** when possible: a major incident, official statistics (e.g. fraud/scam reporting), or enforcement case that exemplifies the vulnerability—with links or full citations
+- Where helpful, add a **demonstration exploit** from magic or mentalism (low-harm, principle-focused) alongside harmful real-world cases
 - Extend real-world documentation to future CHVE entries beyond the initial three (Authority, Urgency, and Social Proof)
 
 ### Citation formatting
