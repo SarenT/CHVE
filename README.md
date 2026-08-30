@@ -116,6 +116,8 @@ Each CHVE is documented as a single Markdown file and typically includes:
 
 - Exploit Examples
 
+- Documented Real-World Exploitation (when available)
+
 - Preconditions
 
 - Impact
@@ -131,6 +133,8 @@ Each CHVE is documented as a single Markdown file and typically includes:
 - References
 
 Not all fields are mandatory, but clarity and neutrality are required.
+
+Where possible, each CHVE should include at least one **citable real-world exploitation**—for example a well-documented incident, official crime or fraud statistics, or a public enforcement action—so readers can connect the abstract vulnerability to observable practice. Prefer primary or official sources; keep language neutral and defensive in intent.
 
 ---
 
@@ -222,6 +226,8 @@ Open quality goals for existing and future CHVE entries:
 - Prefer **primary literature** (empirical studies, original experiments, peer-reviewed reviews) over popular summaries alone
 - **Back claims in the CHVE text** with those references—not only a References list at the end
 - Strengthen secondary or illustrative citations (e.g. practitioner books, incident reports) by pairing them with primary sources where claims are factual or causal
+- Include **Documented Real-World Exploitation** when possible: a major incident, official statistics (e.g. fraud/scam reporting), or enforcement case that exemplifies the vulnerability—with links or full citations
+- Extend real-world documentation beyond Authority Bias to other CHVE entries (Urgency Bias, Social Proof Bias, and future entries)
 
 ### Citation formatting
 
