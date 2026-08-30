@@ -227,7 +227,7 @@ Open quality goals for existing and future CHVE entries:
 - **Back claims in the CHVE text** with those references—not only a References list at the end
 - Strengthen secondary or illustrative citations (e.g. practitioner books, incident reports) by pairing them with primary sources where claims are factual or causal
 - Include **Documented Real-World Exploitation** when possible: a major incident, official statistics (e.g. fraud/scam reporting), or enforcement case that exemplifies the vulnerability—with links or full citations
-- Extend real-world documentation beyond Authority Bias and Urgency Bias to other CHVE entries (Social Proof Bias and future entries)
+- Extend real-world documentation to future CHVE entries beyond the initial three (Authority, Urgency, and Social Proof)
 
 ### Citation formatting
 
